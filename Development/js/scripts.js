@@ -43,9 +43,9 @@ let age = parseInt(prompt("ادخل عمرك"))
 if (age < 5) {
     console.log("روضه");
 }
-else if (5 < age < 18){
+else if (  age < 18){
     console.log("مدرسه");
 }
 else {
-    console.log(جامعه);
+    console.log("جامعه");
 }
